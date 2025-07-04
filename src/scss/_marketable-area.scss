@@ -1,6 +1,6 @@
 .marketable-area {
     background: #999999;
-    /* width: 120px; */
+    width: 120px;
     min-width: 280px;
     height: 100vh;
     display: flex;
@@ -8,9 +8,10 @@
     justify-content: center;
     position: sticky;
     top: 0;
-}
 
-.marketable-area h1 {
+
+    
+h1 {
     color: #222;
     font-size: 1.2rem;
     font-weight: 700;
@@ -18,4 +19,5 @@
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     letter-spacing: 2px;
+}
 }

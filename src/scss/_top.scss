@@ -1,0 +1,30 @@
+
+.top {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-self: center;
+
+  .weather-area-right {
+    width: 260px;
+    height: 338px;
+    background-color: #14203a;
+    border-radius: 20px;
+    margin-top: 20px;
+    .sun {
+      h1 {
+        color: #676b73;
+        padding-top: 10px;
+        margin-left: 15px;
+        font-size: 20px;
+      }
+      p {
+        margin-left: 15px;
+
+        font-size: 24px;
+        font-weight: 600;
+        color: #ffffff;
+      }
+    }
+  }
+}

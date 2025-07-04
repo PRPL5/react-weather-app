@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/style.css';
+import '../scss/styles.css';
 
 const WeatherWeek = ({ weeklyForecast, tempUnit }) => (
   <div className="days">

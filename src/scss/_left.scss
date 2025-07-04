@@ -1,0 +1,50 @@
+
+  .left {
+    display: flex;
+    flex-direction: column;
+
+    #country {
+      min-width: 90px;
+      max-width: 120px;
+      gap: 7px;
+      color: #ffffff;
+      font-size: 14px;
+      display: inline-flex;
+      padding-left: 5%;
+      align-items: center;
+      background-color: #742bec;
+      height: 35px;
+      border-radius: 20px;
+      font-weight: 800;
+
+      i {
+        font-size: 14px;
+      }
+      #date-day {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        #date {
+          margin-top: 0;
+          font-size: 16px;
+          font-weight: $boldness;
+        }
+      }
+    }
+    #temp {
+      font-weight: $boldness;
+      font-size: 60px;
+      margin-top: 20px;
+      margin-bottom: 5px;
+      &-metric {
+        display: block;
+        height: 35px;
+        min-width: 88px;
+        border-radius: 20px;
+        border: 0 solid;
+        margin-top: 10px;
+        font-weight: 700;
+      }
+    }
+  }

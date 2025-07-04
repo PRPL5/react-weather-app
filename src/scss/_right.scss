@@ -1,0 +1,37 @@
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: end;
+    button {
+      display: block;
+      height: 35px;
+      min-width: 88px;
+      border-radius: 20px;
+      border: 0 solid;
+      margin-top: 10px;
+      font-weight: 700;
+    }
+    #weather-icon {
+      height: 140px;
+      width: 140px;
+      padding: 0;
+      margin: 0;
+      margin-top: 10px;
+    }
+    h1 {
+      word-wrap: break-word;
+      font-size: 32px;
+      font-weight: $boldness;
+      margin-top: 0;
+      margin-bottom: 0;
+      width: 300px;
+      text-align: end;
+    }
+    p {
+      margin-top: 0;
+      font-size: 14px;
+      font-weight: $boldness;
+    }
+  }

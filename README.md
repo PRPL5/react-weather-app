@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React Weather Application
 
 This is a simple weather application built with React.js. It allows users to search for weather information by city and displays current weather conditions as well as a weekly forecast.
@@ -59,3 +60,6 @@ react-weather
 ## License
 
 This project is licensed under the MIT License.
+=======
+# react-weather-app
+>>>>>>> 2d6f3defb6f7f7ceaff2c6b124d279fe1c082907

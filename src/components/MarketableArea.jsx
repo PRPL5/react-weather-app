@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/MarketableArea.css';
+import '../scss/styles.css';
 
 const MarketableArea = () => (
   <div className="marketable-area">

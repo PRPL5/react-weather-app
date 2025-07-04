@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/style.css';
+import '../scss/styles.css'
 
 const CityWeather = ({ city, temperature, temperatureF, tempUnit, weatherIcon, description }) => (
   <div className="city">

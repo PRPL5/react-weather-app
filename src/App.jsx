@@ -4,7 +4,7 @@ import WeatherArea from './components/WeatherArea';
 import WeatherAreaRight from './components/WeatherAreaRight';
 import WeatherWeek from './components/WeatherWeek';
 import CityWeather from './components/CityWeather';
-import './styles/global.css';
+import "./scss/styles.css"
 import MarketableArea from './components/MarketableArea';
 
 const API_KEY = 'H58WMZYCZ9FEBWX3VQWZY9GQR';
@@ -82,7 +82,7 @@ const App = () => {
   return (
     <div style={{ display: 'flex', minHeight: '100vh' }}>
       <MarketableArea />
-      <div className="content" style={{ flex: 1, minHeight: '100vh', height: '100vh', overflow: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
+      <div className="content" style={{ flex: 1, minHeight: '100vh', height: '100vh', overflow: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', gap:'20px' }}>
         <SearchBar onSearch={handleSearch} />
         {weatherData && (
           <>
@@ -100,8 +100,10 @@ const App = () => {
             </section>
             <section className="bottom">
               <div className="weather-area-2">
+                <div className="two">
                 <h1 className="title">This Week</h1>
                 <WeatherWeek weeklyForecast={weatherData.weeklyForecast} tempUnit={tempUnit} />
+                </div>
               </div>
               <div className="cities">
                 <CityWeather

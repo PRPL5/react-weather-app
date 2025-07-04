@@ -1,0 +1,43 @@
+.weather-area-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 500px;
+  height: 280px;
+  border-radius: 30px;
+  background-color: $primary-background-color;
+  color: $primary-color;
+  padding: 29px 27px;
+  margin-top: 20px;
+
+  .two {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    .days {
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      gap: 10px;
+      justify-content: space-between;
+      margin-top: 50px;
+    }
+    .day {
+      background-color: #1c2433;
+      justify-content: center;
+      gap: 12px;
+      width: 55px;
+      height: 150px;
+      border: 1px solid white;
+      border-radius: 20px;
+      text-align: center;
+      align-content: center;
+      display: flex;
+      flex-direction: column;
+      .weekday {
+        font-size: 15px;
+        font-weight: 500;
+      }
+    }
+  }
+}
